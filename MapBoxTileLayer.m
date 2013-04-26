@@ -1,10 +1,6 @@
 //
 //  MapBoxTileLayer.m
-//  evMETRA
-//
-//  Created by pfister on 4/25/13.
-//  Copyright (c) 2013 apf. All rights reserved.
-//
+//  
 
 #import "MapBoxTileLayer.h"
 
