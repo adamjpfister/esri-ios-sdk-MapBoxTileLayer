@@ -34,7 +34,6 @@
 
 - (NSURL*)urlForTileKey:(AGSTileKey *)key
 {
-    //NSString *mapBoxId = @"ajpfister.map-709217ml";
     NSUInteger index = (key.level + key.column + key.row) % [_subdomains count];
     NSString *subdomain = [_subdomains objectAtIndex:index];
     NSString *mapBoxUrl = [NSString stringWithFormat: @"http://%@.tiles.mapbox.com/v3/%@/%d/%d/%d.png",subdomain, _mapBoxId, key.level, key.column, key.row];
